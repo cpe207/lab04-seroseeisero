@@ -1,5 +1,17 @@
 function primeNumber(a) {
-  /* Your code here */
+  let isPrime = true;
+  for (let i = 2;i < a ; i++){
+    if (a%i == 0 && a != 2){
+      isPrime = false;
+      break;
+    }
+  }
+  if (isPrime){
+    return "YES";
+  }
+  else{
+    return "NO";
+  }
 }
 
 const d1 = 10;
@@ -11,3 +23,6 @@ console.log(primeNumber(d2));
 console.log(primeNumber(d3));
 
 module.exports = primeNumber;
+
+//นายพีรภาส อย่างนะ//
+//660610780//

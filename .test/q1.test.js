@@ -8,6 +8,7 @@ const input = [
   ["0", 100],
 ];
 
+
 //these comments are here, so that you won't see test cases :P
 //these comments are here, so that you won't see test cases :P
 //these comments are here, so that you won't see test cases :P
